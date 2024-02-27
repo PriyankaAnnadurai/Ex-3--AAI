@@ -36,6 +36,8 @@
 
 ## Program:
 ```python
+!pip install pgmpy
+
 from pgmpy.models import BayesianNetwork 
 from pgmpy. factors.discrete import TabularCPD 
 from pgmpy.sampling import GibbsSampling
@@ -105,12 +107,10 @@ print(query_result)
 ```
 
 ## Output:
+![image](https://github.com/PriyankaAnnadurai/Ex-3--AAI/assets/118351569/15926c15-79c3-4dc7-aeae-32f4896a756c)
+![image](https://github.com/PriyankaAnnadurai/Ex-3--AAI/assets/118351569/476b562c-37ee-4d7a-be1e-c04640dfa881)
+![image](https://github.com/PriyankaAnnadurai/Ex-3--AAI/assets/118351569/8678c1f0-530b-4e36-a313-c22e50b4d7ac)
 
-![image](https://github.com/JoyceBeulah/Ex-3--AAI/assets/118343698/4a42b0ce-c488-46f4-9b7e-5f509b57ceba)
-
-![image](https://github.com/JoyceBeulah/Ex-3--AAI/assets/118343698/b00b0a7a-d20b-4246-a68e-c4c199e7e952)
-
-![image](https://github.com/JoyceBeulah/Ex-3--AAI/assets/118343698/0128358c-56ef-4bdc-9889-5f0cbaebbdbe)
 
 ## Result:
 Thus, Gibb's Sampling( Approximate Inference method) is succuessfully implemented using python.
